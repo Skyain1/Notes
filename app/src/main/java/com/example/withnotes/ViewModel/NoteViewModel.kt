@@ -1,4 +1,4 @@
-package com.example.withnotes.Models
+package com.example.withnotes.ViewModel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
@@ -6,6 +6,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
 import com.example.withnotes.Database.NoteDatabase
 import com.example.withnotes.Database.NotesRepository
+import com.example.withnotes.Models.Note
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
